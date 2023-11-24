@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+    font-family: 'Quicksand', sans-serif;
+    transition: all 0.8s;
+}
+
+*::-webkit-scrollbar {
+    width: 14px; /* Largura da barra de rolagem */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 10px;
+     /* Cor do polegar da barra de rolagem (parte que você arrasta) */
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #000000;
+     /* Cor da pista da barra de rolagem (fundo) */
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+
+.logo{
+    width: 120px;
+}
+
+.logo:hover{
+    animation-delay: 0.5s;
+    animation: logoGirando 1s;
+    cursor: pointer;
+}
+
+@keyframes logoGirando {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate( 360deg);
+    }
+}
+
+.coment{
+    border-right: solid 1px black;
+}
+
+.imgs-header{
+    width: 50px;
+    margin-left: 15px;
+}
+
+.imgs-header:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.links-a{
+    text-decoration: none;
+    color: #0087BD !important;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+/* banner --------------------------------------------------------------------------------- */
+
+.imgs-banner {
+    height: 600px;
+    opacity: 85%;
+}
+
+.elements{
+    display: block;
+    top: 22%;
+}
+
+.title-banner{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.descricao-banner{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.btn-banner{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #C5EFFF;
+    color: #0087BD;
+    padding: 5px;
+    border: none;
+    box-shadow: 4px 4px 15px #0087BD;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn-banner:hover{
+    transform: scale(1.1);
+    background-color: #a5e6ff;
+}
+
+.seta-button{
+    padding-right: 5px;
+}
+
+.seta-btn{
+    padding-left: 5px;
+}
+
+/* sec 2--------------------------------------------------------------------------------------- */
+
+.title-sec-two {
+    color: #0087BD;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.rowum,
+.rowdois{
+    background-color: #C5EFFF;
+}
+
+.subtitle{
+    text-align: center;
+    color: #0087BD;
+    font-size: 24px;
+}
+
+.imagem-dois {
+    width: 300px;
+}
+
