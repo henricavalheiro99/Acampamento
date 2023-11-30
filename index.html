@@ -20,17 +20,16 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 
-<body class="dark">
+<body id="body">
     <nav class="navbar navbar-expand-lg shadow header">
         <div class="container-fluid">
             <div class="navbar-brand h1">
-                <img src="assets/img/LogoNature-removebg-preview.png" alt="logo" class="logo">
+                <img src="assets/img/LogoNature-removebg-preview.png" id="logo1" alt="logo" class="logo">
             </div>
 
             <nav class="icons">
-                <img src="assets/img/Volume100-removebg-preview.png" alt="valome" class="imgs-header">
-                <img src="assets/img/IconFaca.png" alt="survive" class="imgs-header">
-                <img src="assets/img/Carrinho.png" alt="compras" class="imgs-header carrinho">
+                <img src="assets/img/IconFaca.png" alt="survive" class="imgs-header" id="faca">
+                <img src="assets/img/Carrinho.png" alt="compras" class="imgs-header carrinho" id="carrinho">
             </nav>
             <button class="navbar-toggler bugger" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -82,7 +81,7 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="assets/img/ArteNature.jpg" class="d-block w-100 imgs-banner" alt="...">
+                            <img src="assets/img/ArteNature.jpg" class="d-block w-100 imgs-banner" id="img-banner1" alt="...">
                             <div class="carousel-caption d-none d-md-block elements">
                                 <p class="title-banner">Explore a Natureza ao Máximo!</p>
                                 <p class="descricao-banner">Encontre os Melhores Equipamentos e Dicas para uma Aventura
@@ -92,7 +91,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/img/ArteNature2.jpg" class="d-block w-100 imgs-banner" alt="...">
+                            <img src="assets/img/ArteNature2.jpg" class="d-block w-100 imgs-banner" id="img-banner2" alt="...">
                             <div class="carousel-caption d-none d-md-block elements">
                                 <p class="title-banner">Explore a Natureza ao Máximo!</p>
                                 <p class="descricao-banner">Encontre os Melhores Equipamentos e Dicas para uma Aventura
@@ -102,7 +101,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/img/ArteNature3.jpg" class="d-block w-100 imgs-banner" alt="...">
+                            <img src="assets/img/ArteNature3.jpg" class="d-block w-100 imgs-banner" id="img-banner3" alt="...">
                             <div class="carousel-caption d-none d-md-block elements">
                                 <p class="title-banner">Explore a Natureza ao Máximo!</p>
                                 <p class="descricao-banner">Encontre os Melhores Equipamentos e Dicas para uma Aventura
@@ -112,7 +111,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/img/ArteNature4.jpg" class="d-block w-100 imgs-banner" alt="...">
+                            <img src="assets/img/ArteNature4.jpg" class="d-block w-100 imgs-banner" id="img-banner4" alt="...">
                             <div class="carousel-caption d-none d-md-block elements">
                                 <p class="title-banner">Explore a Natureza ao Máximo!</p>
                                 <p class="descricao-banner">Encontre os Melhores Equipamentos e Dicas para uma Aventura
@@ -122,7 +121,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/img/ArteNature5.jpg" class="d-block w-100 imgs-banner" alt="...">
+                            <img src="assets/img/ArteNature5.jpg" class="d-block w-100 imgs-banner" id="img-banner5" alt="...">
                             <div class="carousel-caption d-none d-md-block elements">
                                 <p class="title-banner">Explore a Natureza ao Máximo!</p>
                                 <p class="descricao-banner">Encontre os Melhores Equipamentos e Dicas para uma Aventura
@@ -156,15 +155,15 @@
 
                 <div class="row rowdois">
                     <div class="col-7">
-                        <p class="subtitle">Amantes da Natureza e do Acampamento</p>
-                        <p class="textinho-sec-dois">Somos entusiastas ávidos da natureza e do acampamento. A paixão
+                        <p class="subtitle" id="subtitle-sec2-1">Amantes da Natureza e do Acampamento</p>
+                        <p class="textinho-sec-dois" id="text-sc2-1">Somos entusiastas ávidos da natureza e do acampamento. A paixão
                             pela aventura ao ar livre corre em nossas veias. Cada membro de nossa equipe tem uma conexão
                             profunda com a beleza e a tranquilidade da natureza, e essa paixão nos motiva a compartilhar
                             nossa experiência e conhecimento com outros amantes da natureza.</p>
                     </div>
 
                     <div class="col-5 centralizar-imgs">
-                        <img src="assets/img/Subtitle1Nature 1.png" alt="natureza" class="imagem-dois direita">
+                        <img src="assets/img/Subtitle1Nature 1.png" alt="natureza" class="imagem-dois direita" id="img-sec2-1">
                     </div>
                 </div>
 
@@ -175,7 +174,7 @@
                     </div>
 
                     <div class="col-7">
-                        <p class="subtitle">Fornecedores de Equipamentos de Alta Qualidade e Informações Úteis</p>
+                        <p class="subtitle" id="subtitle-sec2-2">Fornecedores de Equipamentos de Alta Qualidade e Informações Úteis</p>
                         <p class="textinho-sec-dois">Nosso compromisso é garantir que sua experiência de acampamento
                             seja tão confortável e segura quanto possível. Oferecemos uma ampla seleção de produtos
                             cuidadosamente selecionados, tudo projetado para resistir às condições mais desafiadoras.
@@ -186,7 +185,7 @@
 
                 <div class="row rowquatro">
                     <div class="col-7">
-                        <p class="subtitle">Uma Comunidade Dedicada à Inspiração e Exploração</p>
+                        <p class="subtitle" id="subtitle-sec2-3">Uma Comunidade Dedicada à Inspiração e Exploração</p>
                         <p class="textinho-sec-dois">Acreditamos que as melhores histórias de acampamento são
                             compartilhadas. Por isso, convidamos você a fazer parte de nossa comunidade de aventureiros.
                             Juntos, inspiraremos uns aos outros a explorar e preservar os tesouros naturais deste mundo.
@@ -194,7 +193,7 @@
                     </div>
 
                     <div class="col-5 centralizar-imgs">
-                        <img src="assets/img/SubtitleNature3 1.png" alt="exploração" class="imagem-dois direita">
+                        <img src="assets/img/SubtitleNature3 1.png" alt="exploração" class="imagem-dois direita" id="img-sec2-3">
                     </div>
                 </div>
 
@@ -276,7 +275,7 @@
 
                 <div class="row cards-produtos">
                     <div class="col-3 produto-individual">
-                        <img src="assets/img/BgProdutosL.png" alt="lampada" class="produto-img">
+                        <img src="assets/img/BgProdutosL.png" alt="lampada" class="produto-img" id="lampada-1">
                         <p class="produto-title">Lâmpada UltraBrilho</p>
                         <p class="produto-descricao">Ilumine suas noites no acampamento com a Lâmpada UltraBrilho. Com
                             várias configurações de intensidade, é perfeita para criar a atmosfera certa em sua barraca.
@@ -294,7 +293,7 @@
                     </div>
 
                     <div class="col-3 produto-individual">
-                        <img src="assets/img/BgProdutos 2.png" alt="lampada" class="produto-img">
+                        <img src="assets/img/BgProdutos 2.png" alt="lampada" class="produto-img" id="lampada-2">
                         <p class="produto-title">Saco de Dormir CozyRest</p>
                         <p class="produto-descricao">O "Saco de Dormir CozyRest" é essencial para uma boa noite de sono
                             durante suas aventuras ao ar livre. Com um design confortável e isolamento térmico de alta
@@ -312,7 +311,7 @@
                     </div>
 
                     <div class="col-3 produto-individual">
-                        <img src="assets/img/BgProdutos 3.png" alt="lampada" class="produto-img">
+                        <img src="assets/img/BgProdutos 3.png" alt="lampada" class="produto-img" id="lampada-3">
                         <p class="produto-title">Lanterna Luminar</p>
                         <p class="produto-descricao">A "Lanterna Luminar" é compacta e poderosa, iluminando o caminho à
                             sua frente durante suas explorações noturnas, com design bem pensado para com o objetivo de
@@ -333,7 +332,7 @@
 
                 <div class="row cards-produtos">
                     <div class="col-3 produto-individual">
-                        <img src="assets/img/BgProdutos 4.png" alt="lampada" class="produto-img">
+                        <img src="assets/img/BgProdutos 4.png" alt="lampada" class="produto-img" id="lampada-4">
                         <p class="produto-title">Kit Aventureiro</p>
                         <p class="produto-descricao">Prepare-se para qualquer clima com nosso "Kit Aventureiro" de roupa
                             de acampamento. Inclui jaqueta impermeável, calça resistente ao vento e camiseta térmica
@@ -351,7 +350,7 @@
                     </div>
 
                     <div class="col-3 produto-individual">
-                        <img src="assets/img/BgProdutos 5.png" alt="lampada" class="produto-img">
+                        <img src="assets/img/BgProdutos 5.png" alt="lampada" class="produto-img" id="lampada-5">
                         <p class="produto-title">Bússola Navigator Pro</p>
                         <p class="produto-descricao">A "Bússola Navigator Pro" de alta precisão é um companheiro
                             confiável para suas explorações ao ar livre. Fácil de usar e durável, ajuda você a encontrar
@@ -369,7 +368,7 @@
                     </div>
 
                     <div class="col-3 produto-individual">
-                        <img src="assets/img/BgProdutos 6.png" alt="lampada" class="produto-img">
+                        <img src="assets/img/BgProdutos 6.png" alt="lampada" class="produto-img" id="lampada-6">
                         <p class="produto-title">Mapa Explorador Master</p>
                         <p class="produto-descricao">Este "Mapa Explorador Master" topográfico detalhado é um recurso
                             valioso para planejar suas jornadas na natureza. Mostrando o terreno, as trilhas e os pontos
@@ -400,7 +399,7 @@
 
                 <div class="row cards-produtos">
                     <div class="col-3 produto-individual">
-                        <img src="assets/img/BgProdutos 1-5.png" alt="lampada" class="produto-img">
+                        <img src="assets/img/BgProdutos 1-5.png" alt="lampada" class="produto-img" id="lampada-7">
                         <p class="produto-title">Barraca Aventura Pro</p>
                         <p class="produto-descricao">Espaçosa, durável e à prova d'água, a Barraca Aventura Pro é
                             perfeita para acampamentos e aventuras ao ar livre. Fácil de montar e ideal para famílias e
@@ -418,7 +417,7 @@
                     </div>
 
                     <div class="col-3 produto-individual">
-                        <img src="assets/img/BgProdutos 1-4.png" alt="lampada" class="produto-img">
+                        <img src="assets/img/BgProdutos 1-4.png" alt="lampada" class="produto-img" id="lampada-8">
                         <p class="produto-title">Corda Resistente Explorer</p>
                         <p class="produto-descricao">A Corda Resistente Explorer é essencial para qualquer acampamento.
                             Com 30 metros de comprimento, é forte e versátil, sendo muito útil para inúmeras aplicações
@@ -436,7 +435,7 @@
                     </div>
 
                     <div class="col-3 produto-individual">
-                        <img src="assets/img/BgProdutos 1-3.png" alt="lampada" class="produto-img">
+                        <img src="assets/img/BgProdutos 1-3.png" alt="lampada" class="produto-img" id="lampada-9">
                         <p class="produto-title">Óculos de Sol Aventureiro</p>
                         <p class="produto-descricao"> Mantenha seus olhos protegidos do sol enquanto explora a natureza
                             com os Óculos de Sol Aventureiro. Elegantes e resistentes, eles são ideais para todas as
@@ -457,7 +456,7 @@
 
                 <div class="row cards-produtos">
                     <div class="col-3 produto-individual">
-                        <img src="assets/img/BgProdutos 1-2.png" alt="lampada" class="produto-img">
+                        <img src="assets/img/BgProdutos 1-2.png" alt="lampada" class="produto-img" id="lampada-10">
                         <p class="produto-title">Repelente MosquitoShield</p>
                         <p class="produto-descricao">Proteja-se contra mosquitos e outros insetos com o Repelente
                             natural MosquitoShield. Sua fórmula segura e eficaz manterá os insetos afastados durante
@@ -475,7 +474,7 @@
                     </div>
 
                     <div class="col-3 produto-individual">
-                        <img src="assets/img/BgProdutos 1-1.png" alt="lampada" class="produto-img">
+                        <img src="assets/img/BgProdutos 1-1.png" alt="lampada" class="produto-img" id="lampada-11">
                         <p class="produto-title">Extintor de Emergência</p>
                         <p class="produto-descricao">Segurança em primeiro lugar! Leve o Extintor de incêndio de
                             Emergência para garantir que você esteja preparado para qualquer situação durante o
@@ -493,7 +492,7 @@
                     </div>
 
                     <div class="col-3 produto-individual">
-                        <img src="assets/img/BgProdutos 1.png" alt="lampada" class="produto-img">
+                        <img src="assets/img/BgProdutos 1.png" alt="lampada" class="produto-img" id="lampada-12">
                         <p class="produto-title">Mochila ProVenture</p>
                         <p class="produto-descricao"> Leve tudo o que precisa em suas aventuras com a Mochila de
                             expedição ProVenture. Com compartimentos espaçosos e conforto duradouro, a escolha para
@@ -530,7 +529,7 @@
                     </div>
 
                     <div class="col-6 aventuras-div">
-                        <img src="assets/img/Imgs1.png" alt="imagens de natureza" class="aventura-imgs">
+                        <img src="assets/img/Imgs1.png" alt="imagens de natureza" class="aventura-imgs"  id="aventura-img1">
                     </div>
                 </div>
 
@@ -556,7 +555,7 @@
                     </div>
 
                     <div class="col-6 aventuras-div">
-                        <img src="assets/img/Imgs3.png" alt="imagens de natureza" class="aventura-imgs">
+                        <img src="assets/img/Imgs3.png" alt="imagens de natureza" class="aventura-imgs"  id="aventura-img3">
                     </div>
                 </div>
             </div>
@@ -772,21 +771,21 @@
 
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="row d-flex justify-content-between m-3">
                 <div class="col-md-4 d-flex justify-content-evenly align-items-center">
-                    <img src="assets/img/Vector-5.png" alt="" class="redes-sociais">
-                    <img src="assets/img/Vector-6.png" alt="" class="redes-sociais">
+                    <img src="assets/img/Vector-5.png" alt="" class="redes-sociais" id="facebook">
+                    <img src="assets/img/Vector-6.png" alt="" class="redes-sociais" id="pinterest">
                 </div>
     
                 <div class="col-md-4 d-flex justify-content-center align-items-center">
-                    <img src="assets/img/LogoNature-removebg-preview.png" alt="logo" class="logo">
+                    <img src="assets/img/LogoNature-removebg-preview.png" alt="logo" class="logo" id="logofooter">
                 </div>
     
                 <div class="col-md-4 d-flex justify-content-evenly align-items-center">
-                    <img src="assets/img/Vector-removebg-preview.png" alt="" class="redes-sociais">
-                    <img src="assets/img/Vector.png" alt="" class="redes-sociais">
+                    <img src="assets/img/Vector-removebg-preview.png" alt="" class="redes-sociais" id="instagram">
+                    <img src="assets/img/Vector.png" alt="" class="redes-sociais" id="youtube">
                 </div>
             </div>
         </div>

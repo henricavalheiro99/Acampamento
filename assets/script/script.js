@@ -97,3 +97,107 @@ $("#btn").on("click", async function(){
 
     responder() 
 })
+
+var mode = 0
+
+
+$("#faca").on("click", function(){
+    if (mode == 0){
+        mode = 1
+        $("#body").addClass("dark")
+        // theme
+
+        $("#logo1").attr("src", "assets/img/LogoSurvive.png")
+        $("#carrinho").attr("src", "assets/img/CarrinhoWhite.png")
+        $(this).attr("src", "assets/img/NatureMode.png")
+        // header
+
+        $(".title-banner").html("Desafie a Natureza Impiedosa!")
+        $(".descricao-banner").html("Prepare-se para o Inesperado e Domine Ambientes Hostis com Nossos Acampamentos de Treinamento")
+        $("#img-banner1").attr("src", "assets/img/SurviveArtBanner1 1.png")
+        $("#img-banner2").attr("src", "assets/img/SurviveArtBanner2 1.png")
+        $("#img-banner3").attr("src", "assets/img/SurviveArtBanner3 1.png")
+        $("#img-banner4").attr("src", "assets/img/SurviveArtBanner4 1.png")
+        $("#img-banner5").attr("src", "assets/img/SurviveArtBanner5 1.png")
+        // banner
+
+        $("#subtitle-sec2-1").html("Amantes da Sobrevivência Extrema")
+        $("#text-sc2-1").html("Nossa Equipe Compartilha a Paixão Pela Aventura e o Profundo Conhecimento em Sobrevivência. Na essência de nossa equipe, arde uma chama indomável pela sobrevivência em ambientes adversos. Cada um de nós é moldado pela paixão por desafiar os limites da natureza e pelo aprendizado constante sobre como prosperar em meio à adversidade")
+        $("#img-sec2-1").attr("src", "assets/img/ExtremeNatureIMG 1.png")
+        $("#img-sec2-3").attr("src", "assets/img/DarkNatureIMG 1.png")
+        // sec-2
+
+        $("#lampada-1").attr("src", "assets/img/lampada-2.png")
+        $("#lampada-2").attr("src", "assets/img/saco-2.png")
+        $("#lampada-3").attr("src", "assets/img/lanterna-2.png")
+        $("#lampada-4").attr("src", "assets/img/kit-2.png")
+        $("#lampada-5").attr("src", "assets/img/bussola-2.png")
+        $("#lampada-6").attr("src", "assets/img/mapa-2.png")
+        $("#lampada-7").attr("src", "assets/img/barraca-2.png")
+        $("#lampada-8").attr("src", "assets/img/corda-2.png")
+        $("#lampada-9").attr("src", "assets/img/oculos-2.png")
+        $("#lampada-10").attr("src", "assets/img/repelente-2.png")
+        $("#lampada-11").attr("src", "assets/img/extintor-2.png")
+        $("#lampada-12").attr("src", "assets/img/mochila-2.png")
+        // cards-produtos
+
+        $("#aventura-img1").attr("src", "assets/img/Imgs1-2.png")
+        // aventuras
+
+        $("#logofooter").attr("src", "assets/img/LogoSurvive.png")
+        $("#facebook").attr("src", "assets/img/VectorDF.png")
+        $("#instagram").attr("src", "assets/img/VectorDI.png")
+        $("#pinterest").attr("src", "assets/img/VectorDP.png")
+        $("#youtube").attr("src", "assets/img/VectorDY.png")
+        // footer
+        
+    } else {
+        mode = 0
+        $("#body").removeClass("dark")
+        // theme
+
+        $("#logo1").attr("src", "assets/img/LogoNature-removebg-preview.png")
+        $("#carrinho").attr("src", "assets/img/Carrinho.png")
+        $(this).attr("src", "assets/img/IconFaca.png")
+        // banner
+
+        $(".title-banner").html("Explore a Natureza ao Máximo!")
+        $(".descricao-banner").html("Encontre os Melhores Equipamentos e Dicas para uma Aventura de Acampamento Inesquecível")
+        $("#img-banner1").attr("src", "assets/img/ArteNature.jpg")
+        $("#img-banner2").attr("src", "assets/img/ArteNature2.jpg")
+        $("#img-banner3").attr("src", "assets/img/ArteNature3.jpg")
+        $("#img-banner4").attr("src", "assets/img/ArteNature4.jpg")
+        $("#img-banner5").attr("src", "assets/img/ArteNature5.jpg")
+        // banner
+
+        $("#subtitle-sec2-1").html("Amantes da Natureza e do Acampamento")
+        $("#text-sc2-1").html("Somos entusiastas ávidos da natureza e do acampamento. A paixão pela aventura ao ar livre corre em nossas veias. Cada membro de nossa equipe tem uma conexão profunda com a beleza e a tranquilidade da natureza, e essa paixão nos motiva a compartilhar nossa experiência e conhecimento com outros amantes da natureza")
+        $("#img-sec2-1").attr("src", "assets/img/Subtitle1Nature 1.png")
+        $("#img-sec2-3").attr("src", "assets/img/SubtitleNature3 1.png")
+        // sec-2
+
+        $("#lampada-1").attr("src", "assets/img/BgProdutosL.png")
+        $("#lampada-2").attr("src", "assets/img/BgProdutos 2.png")
+        $("#lampada-3").attr("src", "assets/img/BgProdutos 3.png")
+        $("#lampada-4").attr("src", "assets/img/BgProdutos 4.png")
+        $("#lampada-5").attr("src", "assets/img/BgProdutos 5.png")
+        $("#lampada-6").attr("src", "assets/img/BgProdutos 6.png")
+        $("#lampada-7").attr("src", "assets/img/BgProdutos 1-5.png")
+        $("#lampada-8").attr("src", "assets/img/BgProdutos 1-4.png")
+        $("#lampada-9").attr("src", "assets/img/BgProdutos 1-3.png")
+        $("#lampada-10").attr("src", "assets/img/BgProdutos 1-2.png")
+        $("#lampada-11").attr("src", "assets/img/BgProdutos 1-1.png")
+        $("#lampada-12").attr("src", "assets/img/BgProdutos 1.png")
+        // cards-produtos
+
+        $("#aventura-img1").attr("src", "assets/img/Imgs1.png")
+        // aventuras
+
+        $("#logofooter").attr("src", "assets/img/LogoNature-removebg-preview.png")
+        $("#facebook").attr("src", "assets/img/Vector-5.png")
+        $("#instagram").attr("src", "assets/img/Vector-removebg-preview.png")
+        $("#pinterest").attr("src", "assets/img/Vector-6.png")
+        $("#youtube").attr("src", "assets/img/Vector.png")
+        // footer
+    }
+})
