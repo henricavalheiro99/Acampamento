@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,48 +11,56 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsivo.css">
     <script src="https://kit.fontawesome.com/a8ec99a65b.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="icon" href="assets/img/icons8-acampamento-100.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg shadow">
         <div class="container-fluid">
             <div class="navbar-brand h1">
                 <img src="assets/img/LogoNature-removebg-preview.png" alt="logo" class="logo">
             </div>
-            
+
             <nav class="icons">
                 <img src="assets/img/Volume100-removebg-preview.png" alt="valome" class="imgs-header">
                 <img src="assets/img/IconFaca.png" alt="survive" class="imgs-header">
-                <img src="assets/img/Carrinho.png" alt="compras" class="imgs-header">
+                <img src="assets/img/Carrinho.png" alt="compras" class="imgs-header carrinho">
             </nav>
-            <button class="navbar-toggler bugger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <button class="navbar-toggler bugger" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-                <div class="offcanvas offcanvas-end flex-grow-0" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a href="" class="links-a nav-link" aria-current="page">Quem somos</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="" class="links-a nav-link" aria-current="page">Produtos</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="" class="links-a nav-link" aria-current="page">Guias</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="" class="links-a nav-link" aria-current="page">Comentários</a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="offcanvas offcanvas-end flex-grow-0" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a href="" class="links-a nav-link" aria-current="page">Quem somos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="links-a nav-link" aria-current="page">Produtos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="links-a nav-link" aria-current="page">Guias</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="links-a nav-link" aria-current="page">Comentários</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -60,63 +69,80 @@
             <div class="col-md-12" style="padding: 0;">
                 <div id="carouselExampleCaptions" class="carousel slide">
                     <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
                     </div>
                     <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="assets/img/ArteNature.jpg" class="d-block w-100 imgs-banner" alt="...">
-                        <div class="carousel-caption d-none d-md-block elements">
-                          <p class="title-banner">Explore a Natureza ao Máximo!</p>
-                          <p class="descricao-banner">Encontre os Melhores Equipamentos e Dicas para uma Aventura de Acampamento Inesquecível</p>
-                          <button class="btn-banner"><i class="fa-solid fa-arrow-down seta-button"></i>Saiba Mais<i class="fa-solid fa-arrow-down seta-btn"></i></button>
+                        <div class="carousel-item active">
+                            <img src="assets/img/ArteNature.jpg" class="d-block w-100 imgs-banner" alt="...">
+                            <div class="carousel-caption d-none d-md-block elements">
+                                <p class="title-banner">Explore a Natureza ao Máximo!</p>
+                                <p class="descricao-banner">Encontre os Melhores Equipamentos e Dicas para uma Aventura
+                                    de Acampamento Inesquecível</p>
+                                <button class="btn-banner"><i class="fa-solid fa-arrow-down seta-button"></i>Saiba
+                                    Mais<i class="fa-solid fa-arrow-down seta-btn"></i></button>
+                            </div>
                         </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/ArteNature2.jpg" class="d-block w-100 imgs-banner" alt="...">
-                        <div class="carousel-caption d-none d-md-block elements">
-                          <p class="title-banner">Explore a Natureza ao Máximo!</p>
-                          <p class="descricao-banner">Encontre os Melhores Equipamentos e Dicas para uma Aventura de Acampamento Inesquecível</p>
-                          <button class="btn-banner"><i class="fa-solid fa-arrow-down seta-button"></i>Saiba Mais<i class="fa-solid fa-arrow-down seta-btn"></i></button>
+                        <div class="carousel-item">
+                            <img src="assets/img/ArteNature2.jpg" class="d-block w-100 imgs-banner" alt="...">
+                            <div class="carousel-caption d-none d-md-block elements">
+                                <p class="title-banner">Explore a Natureza ao Máximo!</p>
+                                <p class="descricao-banner">Encontre os Melhores Equipamentos e Dicas para uma Aventura
+                                    de Acampamento Inesquecível</p>
+                                <button class="btn-banner"><i class="fa-solid fa-arrow-down seta-button"></i>Saiba
+                                    Mais<i class="fa-solid fa-arrow-down seta-btn"></i></button>
+                            </div>
                         </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/ArteNature3.jpg" class="d-block w-100 imgs-banner" alt="...">
-                        <div class="carousel-caption d-none d-md-block elements">
-                          <p class="title-banner">Explore a Natureza ao Máximo!</p>
-                          <p class="descricao-banner">Encontre os Melhores Equipamentos e Dicas para uma Aventura de Acampamento Inesquecível</p>
-                          <button class="btn-banner"><i class="fa-solid fa-arrow-down seta-button"></i>Saiba Mais<i class="fa-solid fa-arrow-down seta-btn"></i></button>
+                        <div class="carousel-item">
+                            <img src="assets/img/ArteNature3.jpg" class="d-block w-100 imgs-banner" alt="...">
+                            <div class="carousel-caption d-none d-md-block elements">
+                                <p class="title-banner">Explore a Natureza ao Máximo!</p>
+                                <p class="descricao-banner">Encontre os Melhores Equipamentos e Dicas para uma Aventura
+                                    de Acampamento Inesquecível</p>
+                                <button class="btn-banner"><i class="fa-solid fa-arrow-down seta-button"></i>Saiba
+                                    Mais<i class="fa-solid fa-arrow-down seta-btn"></i></button>
+                            </div>
                         </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/ArteNature4.jpg" class="d-block w-100 imgs-banner" alt="...">
-                        <div class="carousel-caption d-none d-md-block elements">
-                          <p class="title-banner">Explore a Natureza ao Máximo!</p>
-                          <p class="descricao-banner">Encontre os Melhores Equipamentos e Dicas para uma Aventura de Acampamento Inesquecível</p>
-                          <button class="btn-banner"><i class="fa-solid fa-arrow-down seta-button"></i>Saiba Mais<i class="fa-solid fa-arrow-down seta-btn"></i></button>
+                        <div class="carousel-item">
+                            <img src="assets/img/ArteNature4.jpg" class="d-block w-100 imgs-banner" alt="...">
+                            <div class="carousel-caption d-none d-md-block elements">
+                                <p class="title-banner">Explore a Natureza ao Máximo!</p>
+                                <p class="descricao-banner">Encontre os Melhores Equipamentos e Dicas para uma Aventura
+                                    de Acampamento Inesquecível</p>
+                                <button class="btn-banner"><i class="fa-solid fa-arrow-down seta-button"></i>Saiba
+                                    Mais<i class="fa-solid fa-arrow-down seta-btn"></i></button>
+                            </div>
                         </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/ArteNature5.jpg" class="d-block w-100 imgs-banner" alt="...">
-                        <div class="carousel-caption d-none d-md-block elements">
-                          <p class="title-banner">Explore a Natureza ao Máximo!</p>
-                          <p class="descricao-banner">Encontre os Melhores Equipamentos e Dicas para uma Aventura de Acampamento Inesquecível</p>
-                          <button class="btn-banner"><i class="fa-solid fa-arrow-down seta-button"></i>Saiba Mais<i class="fa-solid fa-arrow-down seta-btn"></i></button>
+                        <div class="carousel-item">
+                            <img src="assets/img/ArteNature5.jpg" class="d-block w-100 imgs-banner" alt="...">
+                            <div class="carousel-caption d-none d-md-block elements">
+                                <p class="title-banner">Explore a Natureza ao Máximo!</p>
+                                <p class="descricao-banner">Encontre os Melhores Equipamentos e Dicas para uma Aventura
+                                    de Acampamento Inesquecível</p>
+                                <button class="btn-banner"><i class="fa-solid fa-arrow-down seta-button"></i>Saiba
+                                    Mais<i class="fa-solid fa-arrow-down seta-btn"></i></button>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
                     </button>
-                  </div>
+                </div>
             </div>
         </section>
 
@@ -127,40 +153,51 @@
                         <p class="title-sec-two">Quem somos?</p>
                     </div>
                 </div>
-    
+
                 <div class="row rowdois">
                     <div class="col-7">
                         <p class="subtitle">Amantes da Natureza e do Acampamento</p>
-                        <p class="textinho-sec-dois">Somos entusiastas ávidos da natureza e do acampamento. A paixão pela aventura ao ar livre corre em nossas veias. Cada membro de nossa equipe tem uma conexão profunda com a beleza e a tranquilidade da natureza, e essa paixão nos motiva a compartilhar nossa experiência e conhecimento com outros amantes da natureza.</p>
+                        <p class="textinho-sec-dois">Somos entusiastas ávidos da natureza e do acampamento. A paixão
+                            pela aventura ao ar livre corre em nossas veias. Cada membro de nossa equipe tem uma conexão
+                            profunda com a beleza e a tranquilidade da natureza, e essa paixão nos motiva a compartilhar
+                            nossa experiência e conhecimento com outros amantes da natureza.</p>
                     </div>
-    
-                    <div class="col-5">
+
+                    <div class="col-5 centralizar-imgs">
                         <img src="assets/img/Subtitle1Nature 1.png" alt="natureza" class="imagem-dois direita">
                     </div>
                 </div>
-    
+
                 <div class="row rowtreis">
-                    <div class="col-5">
-                        <img src="assets/img/Equipamentos-removebg-preview 1.png" alt="equipamentos" class="imagem-dois">
+                    <div class="col-5 centralizar-imgs">
+                        <img src="assets/img/Equipamentos-removebg-preview 1.png" alt="equipamentos"
+                            class="imagem-dois">
                     </div>
-    
+
                     <div class="col-7">
                         <p class="subtitle">Fornecedores de Equipamentos de Alta Qualidade e Informações Úteis</p>
-                        <p class="textinho-sec-dois">Nosso compromisso é garantir que sua experiência de acampamento seja tão confortável e segura quanto possível. Oferecemos uma ampla seleção de produtos cuidadosamente selecionados, tudo projetado para resistir às condições mais desafiadoras. Além disso, fornecemos informações valiosas e guias práticos para planejar suas aventuras ao ar livre com confiança.</p>
+                        <p class="textinho-sec-dois">Nosso compromisso é garantir que sua experiência de acampamento
+                            seja tão confortável e segura quanto possível. Oferecemos uma ampla seleção de produtos
+                            cuidadosamente selecionados, tudo projetado para resistir às condições mais desafiadoras.
+                            Além disso, fornecemos informações valiosas e guias práticos para planejar suas aventuras ao
+                            ar livre com confiança.</p>
                     </div>
                 </div>
-    
+
                 <div class="row rowquatro">
                     <div class="col-7">
                         <p class="subtitle">Uma Comunidade Dedicada à Inspiração e Exploração</p>
-                        <p class="textinho-sec-dois">Acreditamos que as melhores histórias de acampamento são compartilhadas. Por isso, convidamos você a fazer parte de nossa comunidade de aventureiros. Juntos, inspiraremos uns aos outros a explorar e preservar os tesouros naturais deste mundo. </p>
+                        <p class="textinho-sec-dois">Acreditamos que as melhores histórias de acampamento são
+                            compartilhadas. Por isso, convidamos você a fazer parte de nossa comunidade de aventureiros.
+                            Juntos, inspiraremos uns aos outros a explorar e preservar os tesouros naturais deste mundo.
+                        </p>
                     </div>
-    
-                    <div class="col-5">
+
+                    <div class="col-5 centralizar-imgs">
                         <img src="assets/img/SubtitleNature3 1.png" alt="exploração" class="imagem-dois direita">
                     </div>
                 </div>
-    
+
                 <div class="col colum">
                     <div class="row rowcards">
                         <div class="col-4">
@@ -172,7 +209,7 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="col-4">
                             <div class="cards shadow">
                                 <img src="assets/img/Icon2.png" alt="segurança" class="card-icon">
@@ -182,7 +219,7 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="col-4">
                             <div class="cards shadow">
                                 <img src="assets/img/icon3.png" alt="segurança" class="card-icon">
@@ -193,7 +230,7 @@
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="row rowcards">
                         <div class="col-4">
                             <div class="cards shadow">
@@ -204,7 +241,7 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="col-4">
                             <div class="cards shadow">
                                 <img src="assets/img/icon5.png" alt="segurança" class="card-icon">
@@ -214,7 +251,7 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="col-4">
                             <div class="cards shadow">
                                 <img src="assets/img/icon6.png" alt="segurança" class="card-icon">
@@ -239,9 +276,11 @@
 
                 <div class="row cards-produtos">
                     <div class="col-3 produto-individual">
-                        <img src="assets/img/BgProdutos 1.png" alt="lampada" class="produto-img">
+                        <img src="assets/img/BgProdutosL.png" alt="lampada" class="produto-img">
                         <p class="produto-title">Lâmpada UltraBrilho</p>
-                        <p class="produto-descricao">Ilumine suas noites no acampamento com a Lâmpada UltraBrilho. Com várias configurações de intensidade, é perfeita para criar a atmosfera certa em sua barraca.</p>
+                        <p class="produto-descricao">Ilumine suas noites no acampamento com a Lâmpada UltraBrilho. Com
+                            várias configurações de intensidade, é perfeita para criar a atmosfera certa em sua barraca.
+                        </p>
                         <div>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -249,15 +288,17 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </div>
-                        <p class="produtos-preco">A partir de: <span class="spa">R$ 59,99</span></p>
-                        <p class="produtos-prco-ou">ou 3x de <span class="spa2">R$ 6,66</span></p>
+                        <p class="produtos-preco">A partir de: <span class="spa">R$59,99</span></p>
+                        <p class="produtos-prco-ou">ou 3x de <span class="spa2">R$6,66</span></p>
                         <button class="btn-card">Comprar</button>
                     </div>
 
                     <div class="col-3 produto-individual">
                         <img src="assets/img/BgProdutos 2.png" alt="lampada" class="produto-img">
                         <p class="produto-title">Saco de Dormir CozyRest</p>
-                        <p class="produto-descricao">O "Saco de Dormir CozyRest" é essencial para uma boa noite de sono durante suas aventuras ao ar livre. Com um design confortável e isolamento térmico de alta qualidade.</p>
+                        <p class="produto-descricao">O "Saco de Dormir CozyRest" é essencial para uma boa noite de sono
+                            durante suas aventuras ao ar livre. Com um design confortável e isolamento térmico de alta
+                            qualidade.</p>
                         <div>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -265,7 +306,7 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </div>
-                        <p class="produtos-preco">A partir de: <span class="spa">R$ 199,99</span></p>
+                        <p class="produtos-preco">A partir de: <span class="spa">R$199,99</span></p>
                         <p class="produtos-prco-ou">ou 4x de <span class="spa2">R$49,99</span></p>
                         <button class="btn-card">Comprar</button>
                     </div>
@@ -273,7 +314,9 @@
                     <div class="col-3 produto-individual">
                         <img src="assets/img/BgProdutos 3.png" alt="lampada" class="produto-img">
                         <p class="produto-title">Lanterna Luminar</p>
-                        <p class="produto-descricao">A "Lanterna Luminar" é compacta e poderosa, iluminando o caminho à sua frente durante suas explorações noturnas, com design bem pensado para o objetivo.</p>
+                        <p class="produto-descricao">A "Lanterna Luminar" é compacta e poderosa, iluminando o caminho à
+                            sua frente durante suas explorações noturnas, com design bem pensado para com o objetivo de
+                            te auxiliar.</p>
                         <div>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -281,18 +324,20 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </div>
-                        <p class="produtos-preco">A partir de: <span class="spa"> R$49,99</span></p>
+                        <p class="produtos-preco">A partir de: <span class="spa">R$49,99</span></p>
                         <p class="produtos-prco-ou">ou 2x de <span class="spa2">R$24,99</span></p>
                         <button class="btn-card">Comprar</button>
                     </div>
-                    
+
                 </div>
 
                 <div class="row cards-produtos">
                     <div class="col-3 produto-individual">
                         <img src="assets/img/BgProdutos 4.png" alt="lampada" class="produto-img">
                         <p class="produto-title">Kit Aventureiro</p>
-                        <p class="produto-descricao">Prepare-se para qualquer clima com nosso "Kit Aventureiro" de roupa de acampamento. Inclui jaqueta impermeável, calça resistente ao vento e camiseta térmica para conforto.</p>
+                        <p class="produto-descricao">Prepare-se para qualquer clima com nosso "Kit Aventureiro" de roupa
+                            de acampamento. Inclui jaqueta impermeável, calça resistente ao vento e camiseta térmica
+                            para conforto.</p>
                         <div>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -301,14 +346,16 @@
                             <i class="fa-solid fa-star"></i>
                         </div>
                         <p class="produtos-preco">A partir de: <span class="spa">R$299,99</span></p>
-                        <p class="produtos-prco-ou">ou 3x de <span class="spa2">R$ 99,99</span></p>
+                        <p class="produtos-prco-ou">ou 3x de <span class="spa2">R$99,99</span></p>
                         <button class="btn-card">Comprar</button>
                     </div>
 
                     <div class="col-3 produto-individual">
                         <img src="assets/img/BgProdutos 5.png" alt="lampada" class="produto-img">
                         <p class="produto-title">Bússola Navigator Pro</p>
-                        <p class="produto-descricao">A "Bússola Navigator Pro" de alta precisão é um companheiro confiável para suas explorações ao ar livre. Fácil de usar e durável, ajuda você a encontrar o caminho nas trilhas.</p>
+                        <p class="produto-descricao">A "Bússola Navigator Pro" de alta precisão é um companheiro
+                            confiável para suas explorações ao ar livre. Fácil de usar e durável, ajuda você a encontrar
+                            o caminho nas trilhas.</p>
                         <div>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -317,14 +364,16 @@
                             <i class="fa-solid fa-star"></i>
                         </div>
                         <p class="produtos-preco">A partir de: <span class="spa">R$29,99</span></p>
-                        <p class="produtos-prco-ou">ou 2x de <span class="spa2">R$ 14,99</span></p>
+                        <p class="produtos-prco-ou">ou 2x de <span class="spa2">R$14,99</span></p>
                         <button class="btn-card">Comprar</button>
                     </div>
 
                     <div class="col-3 produto-individual">
                         <img src="assets/img/BgProdutos 6.png" alt="lampada" class="produto-img">
                         <p class="produto-title">Mapa Explorador Master</p>
-                        <p class="produto-descricao">Este "Mapa Explorador Master" topográfico detalhado é um recurso valioso para planejar suas jornadas na natureza. Mostrando o terreno, as trilhas e os pontos de referência.</p>
+                        <p class="produto-descricao">Este "Mapa Explorador Master" topográfico detalhado é um recurso
+                            valioso para planejar suas jornadas na natureza. Mostrando o terreno, as trilhas e os pontos
+                            de referência.</p>
                         <div>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -332,18 +381,401 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </div>
-                        <p class="produtos-preco">A partir de: <span class="spa">R$ 9,99</span></p>
-                        <p class="produtos-prco-ou">ou 2x de <span class="spa2">R$ 4,99</span></p>
+                        <p class="produtos-preco">A partir de: <span class="spa">R$9,99</span></p>
+                        <p class="produtos-prco-ou">ou 2x de <span class="spa2">R$4,99</span></p>
                         <button class="btn-card">Comprar</button>
                     </div>
                 </div>
             </div>
-        </section>  
+        </section>
+
+
+        <section class="promocoes row">
+            <div class="col promocoes-tudo">
+                <div class="row">
+                    <div class="col">
+                        <p class="title-sec-two">Promoções especiais</p>
+                    </div>
+                </div>
+
+                <div class="row cards-produtos">
+                    <div class="col-3 produto-individual">
+                        <img src="assets/img/BgProdutos 1-5.png" alt="lampada" class="produto-img">
+                        <p class="produto-title">Barraca Aventura Pro</p>
+                        <p class="produto-descricao">Espaçosa, durável e à prova d'água, a Barraca Aventura Pro é
+                            perfeita para acampamentos e aventuras ao ar livre. Fácil de montar e ideal para famílias e
+                            grupos, uma escolha confiável.</p>
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="produtos-preco">A partir de: <span class="spa">R$599,99</span></p>
+                        <p class="produtos-prco-ou">ou 3x de <span class="spa2">R$199,99</span></p>
+                        <button class="btn-card">Comprar</button>
+                    </div>
+
+                    <div class="col-3 produto-individual">
+                        <img src="assets/img/BgProdutos 1-4.png" alt="lampada" class="produto-img">
+                        <p class="produto-title">Corda Resistente Explorer</p>
+                        <p class="produto-descricao">A Corda Resistente Explorer é essencial para qualquer acampamento.
+                            Com 30 metros de comprimento, é forte e versátil, sendo muito útil para inúmeras aplicações
+                            ao ar livre.</p>
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="produtos-preco">A partir de: <span class="spa">R$79,99</span></p>
+                        <p class="produtos-prco-ou">ou 6x de <span class="spa2">R$13,33</span></p>
+                        <button class="btn-card">Comprar</button>
+                    </div>
+
+                    <div class="col-3 produto-individual">
+                        <img src="assets/img/BgProdutos 1-3.png" alt="lampada" class="produto-img">
+                        <p class="produto-title">Óculos de Sol Aventureiro</p>
+                        <p class="produto-descricao"> Mantenha seus olhos protegidos do sol enquanto explora a natureza
+                            com os Óculos de Sol Aventureiro. Elegantes e resistentes, eles são ideais para todas as
+                            atividades ao ar livre.</p>
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="produtos-preco">A partir de: <span class="spa">R$129,99</span></p>
+                        <p class="produtos-prco-ou">ou 5x de <span class="spa2">R$25,99</span></p>
+                        <button class="btn-card">Comprar</button>
+                    </div>
+
+                </div>
+
+                <div class="row cards-produtos">
+                    <div class="col-3 produto-individual">
+                        <img src="assets/img/BgProdutos 1-2.png" alt="lampada" class="produto-img">
+                        <p class="produto-title">Repelente MosquitoShield</p>
+                        <p class="produto-descricao">Proteja-se contra mosquitos e outros insetos com o Repelente
+                            natural MosquitoShield. Sua fórmula segura e eficaz manterá os insetos afastados durante
+                            suas aventuras ao ar livre.</p>
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="produtos-preco">A partir de: <span class="spa">R$19,99</span></p>
+                        <p class="produtos-prco-ou">ou 3x de <span class="spa2">R$6,66</span></p>
+                        <button class="btn-card">Comprar</button>
+                    </div>
+
+                    <div class="col-3 produto-individual">
+                        <img src="assets/img/BgProdutos 1-1.png" alt="lampada" class="produto-img">
+                        <p class="produto-title">Extintor de Emergência</p>
+                        <p class="produto-descricao">Segurança em primeiro lugar! Leve o Extintor de incêndio de
+                            Emergência para garantir que você esteja preparado para qualquer situação durante o
+                            acampamento.</p>
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="produtos-preco">A partir de: <span class="spa">R$89,99</span></p>
+                        <p class="produtos-prco-ou">ou 4x de <span class="spa2">R$22,49</span></p>
+                        <button class="btn-card">Comprar</button>
+                    </div>
+
+                    <div class="col-3 produto-individual">
+                        <img src="assets/img/BgProdutos 1.png" alt="lampada" class="produto-img">
+                        <p class="produto-title">Mochila ProVenture</p>
+                        <p class="produto-descricao"> Leve tudo o que precisa em suas aventuras com a Mochila de
+                            expedição ProVenture. Com compartimentos espaçosos e conforto duradouro, a escolha para
+                            acampamentos longos.</p>
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="produtos-preco">A partir de: <span class="spa">R$199,99</span></p>
+                        <p class="produtos-prco-ou">ou 6x de <span class="spa2">R$33,66</span></p>
+                        <button class="btn-card">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="aventuras row">
+            <div class="col aventuras-tudo">
+                <div class="row">
+                    <div class="col">
+                        <p class="title-sec-four">Busque novas aventuras!</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6 aventuras-div">
+                        <p class="aventuras-title">Conexão com a Natureza</p>
+                        <p class="aventuras-descricao">O acampamento proporciona uma oportunidade única para uma
+                            profunda reconexão com a natureza, afastando-se das distrações urbanas e imergindo em
+                            paisagens deslumbrantes e serenas, reavivando a apreciação pela beleza natural.</p>
+                    </div>
+
+                    <div class="col-6 aventuras-div">
+                        <img src="assets/img/Imgs1.png" alt="imagens de natureza" class="aventura-imgs">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6 aventuras-div">
+                        <img src="assets/img/Imgs2.png" alt="imagens de natureza" class="aventura-imgs img2">
+                    </div>
+
+                    <div class="col-6 aventuras-div">
+                        <p class="aventuras-title">Desconexão Digital</p>
+                        <p class="aventuras-descricao">Acampar oferece uma pausa valiosa da constante presença de
+                            dispositivos eletrônicos, permitindo momentos de reflexão, interações significativas e uma
+                            sensação mais profunda de presença no momento presente.</p>
+                    </div>
+                </div>
+
+                <div class="row shapedividers_com-2438">
+                    <div class="col-6 aventuras-div">
+                        <p class="aventuras-title">Aventura e Exploração</p>
+                        <p class="aventuras-descricao">O acampamento é uma porta de entrada para a aventura,
+                            desafiando-o a explorar trilhas desconhecidas, enfrentar picos de montanhas e remar em rios,
+                            proporcionando experiências emocionantes e memórias duradouras.</p>
+                    </div>
+
+                    <div class="col-6 aventuras-div">
+                        <img src="assets/img/Imgs3.png" alt="imagens de natureza" class="aventura-imgs">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="row guia">
+            <div class="col guia-tudo">
+                <div class="row">
+                    <p class="title-sec-six">Guia de acampamentos</p>
+                </div>
+
+                <div class="cards-guia row">
+                </div>
+
+                <div class="row cards-guia2"></div>
+            </div>
+        </section>
+
+        <section class="row comentarios">
+            <div class="col comentarios-tudo">
+                <div class="row">
+                    <p class="title-sec-seven">Avaliações dos clientes</p>
+                </div>
+
+                <div class="row comentarios-baixo">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card-comentarios">
+                                    <div class="card-cima">
+                                        <img src="assets/img/Analista.png" alt="analista" class="img-perfil">
+                                        <div class="coment-card-right">
+                                            <p class="coment-name">João Rodrigues</p>
+                                            <p class="coment-profission">Analista de Sistemas</p>
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comentario-comentario">“Elevou minhas aventuras ao ar livre com guias
+                                        motivacionais e equipamentos de alta tecnologia”</p>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="card-comentarios">
+                                    <div class="card-cima">
+                                        <img src="assets/img/Biologa.png" alt="analista" class="img-perfil">
+                                        <div class="coment-card-right">
+                                            <p class="coment-name">Maria Fernandes</p>
+                                            <p class="coment-profission">Bióloga e veterinária</p>
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comentario-comentario">"Essencial para amantes da natureza - guias
+                                        inspiradores e produtos cuidadosamente escolhidos."</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card-comentarios">
+                                    <div class="card-cima">
+                                        <img src="assets/img/Engenheira.png" alt="analista" class="img-perfil">
+                                        <div class="coment-card-right">
+                                            <p class="coment-name">Ana Silva</p>
+                                            <p class="coment-profission">Engenheira Ambiental</p>
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comentario-comentario">"Ótima seleção de equipamentos e guias
+                                        motivacionais inspiradores, me ajudou muito com minhas escolhas"</p>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="card-comentarios">
+                                    <div class="card-cima">
+                                        <img src="assets/img/Gigachad.png" alt="analista" class="img-perfil">
+                                        <div class="coment-card-right">
+                                            <p class="coment-name">Pedro Santos</p>
+                                            <p class="coment-profission">Professor de Ed.Física</p>
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comentario-comentario">"Meu site de referência para equipamentos de
+                                        acampamento e motivação ao ar livre, pois tome."</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card-comentarios">
+                                    <div class="card-cima">
+                                        <img src="assets/img/Fotografo.png" alt="analista" class="img-perfil">
+                                        <div class="coment-card-right">
+                                            <p class="coment-name">André Costa</p>
+                                            <p class="coment-profission"> Fotógrafo de Natureza</p>
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comentario-comentario">"Um tesouro para fotógrafos de natureza, com guias
+                                        inspiradores e equipamentos confiáveis."</p>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="card-comentarios">
+                                    <div class="card-cima">
+                                        <img src="assets/img/Professora.png" alt="analista" class="img-perfil">
+                                        <div class="coment-card-right">
+                                            <p class="coment-name">Camila Oliveira</p>
+                                            <p class="coment-profission">Professora de Ciências</p>
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                                <i class="fa-solid fa-star coment-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comentario-comentario">"Fonte inesgotável de inspiração e produtos de
+                                        qualidade para aventuras educacionais."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-5">
+                        <div class="row div-direita-tudo">
+                            <p class="title-forms"><b>Adicione um comentário</b></p>
+                            <form action="">
+                                <label for="" class="label">Informe seu nome:</label>
+                                <br>
+                                <input type="text" class="input" placeholder="Ex:Yasmin">
+                                <br>
+                                <label for="" class="label">Informe sua profissão:</label>
+                                <br>
+                                <input type="text" class="input" placeholder="Ex: Professor de TI">
+                                <br>
+                                <label for="" class="label">Informe uma avaliação:</label>
+                                <br>
+                                <div class="comentarios-estrelas">
+                                    <i class="fa-solid fa-star coment2-star"></i>
+                                    <i class="fa-solid fa-star coment2-star"></i>
+                                    <i class="fa-solid fa-star coment2-star"></i>
+                                    <i class="fa-solid fa-star coment2-star"></i>
+                                    <i class="fa-solid fa-star coment2-star"></i>
+                                </div>
+
+                                <label for="" class="label">Informe um comentário:</label>
+                                <textarea name="" id="textarea" cols="30" rows="10"
+                                    placeholder="Informe aqui sua mensagem"></textarea>
+                                <br>
+                                <div class="alinhar-btn">
+                                    <button class="comment-btn">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="row">
+                    <p class="title-sec-seven">Dúvidas? Faça uma pergunta!</p>
+                </div>
+
+                <div class="row espaço-ambos">
+                    <div class="col pega-tudo-chat">
+                        <p>oi</p>
+                    </div>
+                    <div id="chat" class="chat">
+
+                    </div>
+        
+                    <div class="input"><textarea placeholder="Digite Uma Mensagem" name="" id="qst"
+                            rows="1"></textarea></div>
+                    <button id="btn"><i class="fa-solid fa-paper-plane" style="color: #ffffff;"></i></button> -->
+                <!-- </div>  -->
+            </div>
+        </section>
+
+
     </main>
 
     <footer>
-
+        
     </footer>
     <script src="assets/script/script.js"></script>
 </body>
+
 </html>
