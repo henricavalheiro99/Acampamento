@@ -20,8 +20,8 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg shadow">
+<body class="dark">
+    <nav class="navbar navbar-expand-lg shadow header">
         <div class="container-fluid">
             <div class="navbar-brand h1">
                 <img src="assets/img/LogoNature-removebg-preview.png" alt="logo" class="logo">
@@ -198,7 +198,7 @@
                     </div>
                 </div>
 
-                <div class="col colum">
+                <div class="row colum">
                     <div class="row rowcards">
                         <div class="col-4">
                             <div class="cards shadow">
@@ -547,7 +547,7 @@
                     </div>
                 </div>
 
-                <div class="row shapedividers_com-2438">
+                <div class="row shapedividers_com-2438 shapedividers_com-9947">
                     <div class="col-6 aventuras-div">
                         <p class="aventuras-title">Aventura e Exploração</p>
                         <p class="aventuras-descricao">O acampamento é uma porta de entrada para a aventura,
@@ -722,11 +722,11 @@
                             <form action="">
                                 <label for="" class="label">Informe seu nome:</label>
                                 <br>
-                                <input type="text" class="input" placeholder="Ex:Yasmin">
+                                <input type="text" class="input-comment" placeholder="Ex:Yasmin">
                                 <br>
                                 <label for="" class="label">Informe sua profissão:</label>
                                 <br>
-                                <input type="text" class="input" placeholder="Ex: Professor de TI">
+                                <input type="text" class="input-comment" placeholder="Ex: Professor de TI">
                                 <br>
                                 <label for="" class="label">Informe uma avaliação:</label>
                                 <br>
@@ -750,22 +750,22 @@
                     </div>
                 </div>
 
-                <!-- <div class="row">
+                <div class="row">
                     <p class="title-sec-seven">Dúvidas? Faça uma pergunta!</p>
                 </div>
 
                 <div class="row espaço-ambos">
                     <div class="col pega-tudo-chat">
-                        <p>oi</p>
-                    </div>
-                    <div id="chat" class="chat">
+                        <div id="chat" class="chat">
 
+                        </div>
+
+                        <div class="conjunto-baixo">
+                            <input type="text" class="input" id="qst">
+                            <button id="btn"><i class="fa-solid fa-paper-plane" style="color: #ffffff;"></i></button>
+                        </div>
                     </div>
-        
-                    <div class="input"><textarea placeholder="Digite Uma Mensagem" name="" id="qst"
-                            rows="1"></textarea></div>
-                    <button id="btn"><i class="fa-solid fa-paper-plane" style="color: #ffffff;"></i></button> -->
-                <!-- </div>  -->
+                </div>
             </div>
         </section>
 
@@ -773,7 +773,23 @@
     </main>
 
     <footer>
-        
+        <div class="container">
+            <div class="row d-flex justify-content-between m-3">
+                <div class="col-md-4 d-flex justify-content-evenly align-items-center">
+                    <img src="assets/img/Vector-5.png" alt="" class="redes-sociais">
+                    <img src="assets/img/Vector-6.png" alt="" class="redes-sociais">
+                </div>
+    
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <img src="assets/img/LogoNature-removebg-preview.png" alt="logo" class="logo">
+                </div>
+    
+                <div class="col-md-4 d-flex justify-content-evenly align-items-center">
+                    <img src="assets/img/Vector-removebg-preview.png" alt="" class="redes-sociais">
+                    <img src="assets/img/Vector.png" alt="" class="redes-sociais">
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="assets/script/script.js"></script>
 </body>
